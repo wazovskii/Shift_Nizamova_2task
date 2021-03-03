@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C251338625EEA32700413563 /* ModelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C251338525EEA32700413563 /* ModelRow.swift */; };
-		C251338825EEA37E00413563 /* ModelRow.json in Resources */ = {isa = PBXBuildFile; fileRef = C251338725EEA37E00413563 /* ModelRow.json */; };
 		C2A2E15D25ED504D001C422E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2E15C25ED504D001C422E /* AppDelegate.swift */; };
 		C2A2E15F25ED504D001C422E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2E15E25ED504D001C422E /* SceneDelegate.swift */; };
 		C2A2E16125ED504D001C422E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2E16025ED504D001C422E /* ViewController.swift */; };
@@ -20,8 +18,6 @@
 /* Begin PBXFileReference section */
 		74F403DADCEBA6A16CAD5F4E /* Pods_Nizamova_2task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nizamova_2task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBFABF9E97E68B7B3DF3508 /* Pods-Nizamova_2task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nizamova_2task.debug.xcconfig"; path = "Target Support Files/Pods-Nizamova_2task/Pods-Nizamova_2task.debug.xcconfig"; sourceTree = "<group>"; };
-		C251338525EEA32700413563 /* ModelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRow.swift; sourceTree = "<group>"; };
-		C251338725EEA37E00413563 /* ModelRow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ModelRow.json; sourceTree = "<group>"; };
 		C2A2E15925ED504D001C422E /* Nizamova_2task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nizamova_2task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A2E15C25ED504D001C422E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2A2E15E25ED504D001C422E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,15 +57,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C251338425EEA2FF00413563 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C251338525EEA32700413563 /* ModelRow.swift */,
-				C251338725EEA37E00413563 /* ModelRow.json */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		C2A2E15025ED504D001C422E = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +78,6 @@
 		C2A2E15B25ED504D001C422E /* Nizamova_2task */ = {
 			isa = PBXGroup;
 			children = (
-				C251338425EEA2FF00413563 /* Model */,
 				C2A2E15C25ED504D001C422E /* AppDelegate.swift */,
 				C2A2E15E25ED504D001C422E /* SceneDelegate.swift */,
 				C2A2E16025ED504D001C422E /* ViewController.swift */,
@@ -163,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2A2E16925ED5054001C422E /* LaunchScreen.storyboard in Resources */,
-				C251338825EEA37E00413563 /* ModelRow.json in Resources */,
 				C2A2E16625ED5054001C422E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +204,6 @@
 			files = (
 				C2A2E16125ED504D001C422E /* ViewController.swift in Sources */,
 				C2A2E15D25ED504D001C422E /* AppDelegate.swift in Sources */,
-				C251338625EEA32700413563 /* ModelRow.swift in Sources */,
 				C2A2E15F25ED504D001C422E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

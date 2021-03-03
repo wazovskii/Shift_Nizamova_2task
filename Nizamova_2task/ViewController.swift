@@ -146,19 +146,15 @@ class ViewController: UIViewController {
 
 class SecondViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
         private var tableView: UITableView!
-        private var data: ModelRow?
     
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return 5
+            return 10
         }
     
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "")
-            if let data = self.data
-            {
-                cell.textLabel?.text = data.title
-                cell.detailTextLabel?.text = data.subtitle
-            }
+                cell.textLabel?.text = "News"
+                cell.detailTextLabel?.text = "news"
             cell.backgroundColor = .gray
             return cell
         }
@@ -168,7 +164,6 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         override func viewDidLoad() {
             super.viewDidLoad()
             self.addTableView()
-            self.setDataModel()
         }
     
         private func addTableView()
@@ -180,12 +175,5 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
             self.tableView.snp.makeConstraints { (make) in
                 make.left.right.bottom.top.equalToSuperview()
             }
-        }
-    
-        private func setDataModel()
-        {
-            let service = DataService()
-            let data = service.getData()
-            self.data = data
         }
 }
